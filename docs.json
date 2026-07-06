@@ -1,20 +1,128 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "BillBasket Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1E88E5",
+    "light": "#42A5F5",
+    "dark": "#0D47A1"
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "tabs": [
       {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
+        "tab": "Customer Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "customer-guide/introduction",
+              "customer-guide/getting-started/install-windows",
+              "customer-guide/getting-started/install-android",
+              "customer-guide/getting-started/first-time-setup",
+              "customer-guide/getting-started/offline-first"
+            ]
+          },
+          {
+            "group": "Daily Billing",
+            "pages": [
+              "customer-guide/daily-billing/creating-an-invoice",
+              "customer-guide/daily-billing/adding-items-to-a-bill",
+              "customer-guide/daily-billing/discounts-and-tax",
+              "customer-guide/daily-billing/taking-payment",
+              "customer-guide/daily-billing/printing-and-sharing",
+              "customer-guide/daily-billing/returns-and-replacements"
+            ]
+          },
+          {
+            "group": "Managing Products & Services",
+            "pages": [
+              "customer-guide/products-and-services/adding-a-product",
+              "customer-guide/products-and-services/adding-a-service",
+              "customer-guide/products-and-services/stock-and-inventory-basics",
+              "customer-guide/products-and-services/units-of-measure",
+              "customer-guide/products-and-services/barcode-scanning"
+            ]
+          },
+          {
+            "group": "Customers & Suppliers",
+            "pages": [
+              "customer-guide/parties/adding-a-customer",
+              "customer-guide/parties/credit-accounts",
+              "customer-guide/parties/per-customer-tax"
+            ]
+          },
+          {
+            "group": "Purchases & Expenses",
+            "pages": [
+              "customer-guide/purchases-and-expenses/recording-a-purchase",
+              "customer-guide/purchases-and-expenses/tracking-expenses",
+              "customer-guide/purchases-and-expenses/estimates-and-quotes"
+            ]
+          },
+          {
+            "group": "Employees",
+            "pages": [
+              "customer-guide/employees/adding-an-employee",
+              "customer-guide/employees/admin-pin-and-permissions",
+              "customer-guide/employees/employee-linked-sales"
+            ]
+          },
+          {
+            "group": "Reports & Dashboard",
+            "pages": [
+              "customer-guide/reports-and-dashboard/understanding-your-dashboard",
+              "customer-guide/reports-and-dashboard/customizing-the-dashboard",
+              "customer-guide/reports-and-dashboard/sales-and-inventory-reports"
+            ]
+          },
+          {
+            "group": "Backup, Data & Multi-Device",
+            "pages": [
+              "customer-guide/data-and-backup/backing-up-your-data",
+              "customer-guide/data-and-backup/restoring-from-backup",
+              "customer-guide/data-and-backup/importing-existing-data",
+              "customer-guide/data-and-backup/phone-and-desktop-together"
+            ]
+          },
+          {
+            "group": "Account & Licensing",
+            "pages": [
+              "customer-guide/account-and-licensing/activating-your-license",
+              "customer-guide/account-and-licensing/devices-and-login",
+              "customer-guide/account-and-licensing/managing-your-store-profile"
+            ]
+          },
+          {
+            "group": "Troubleshooting & FAQ",
+            "pages": [
+              "customer-guide/troubleshooting/common-issues",
+              "customer-guide/troubleshooting/contacting-support",
+              "customer-guide/troubleshooting/language-and-display-settings"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Partner Hub",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "partner-hub/introduction"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Internal Ops",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "internal-ops/introduction"
+            ]
+          }
         ]
       }
     ],
@@ -24,11 +132,6 @@
           "anchor": "Documentation",
           "href": "https://mintlify.com/docs",
           "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
@@ -41,14 +144,9 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@billbasket.app"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
-    }
+    ]
   },
   "contextual": {
     "options": [
@@ -64,9 +162,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/BillBasket-LLP"
     }
   }
 }
