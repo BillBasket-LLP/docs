@@ -9,118 +9,243 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "languages": [
       {
-        "tab": "Customer Guide",
-        "groups": [
+        "language": "en",
+        "tabs": [
           {
-            "group": "Getting Started",
-            "pages": [
-              "customer-guide/introduction",
-              "customer-guide/getting-started/install-windows",
-              "customer-guide/getting-started/install-android",
-              "customer-guide/getting-started/first-time-setup",
-              "customer-guide/getting-started/offline-first"
+            "tab": "Customer Guide",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": [
+                  "customer-guide/introduction",
+                  "customer-guide/getting-started/install-windows",
+                  "customer-guide/getting-started/install-android",
+                  "customer-guide/getting-started/first-time-setup",
+                  "customer-guide/getting-started/offline-first"
+                ]
+              },
+              {
+                "group": "Daily Billing",
+                "pages": [
+                  "customer-guide/daily-billing/creating-an-invoice",
+                  "customer-guide/daily-billing/adding-items-to-a-bill",
+                  "customer-guide/daily-billing/discounts-and-tax",
+                  "customer-guide/daily-billing/taking-payment",
+                  "customer-guide/daily-billing/printing-and-sharing",
+                  "customer-guide/daily-billing/returns-and-replacements"
+                ]
+              },
+              {
+                "group": "Managing Products & Services",
+                "pages": [
+                  "customer-guide/products-and-services/adding-a-product",
+                  "customer-guide/products-and-services/adding-a-service",
+                  "customer-guide/products-and-services/stock-and-inventory-basics",
+                  "customer-guide/products-and-services/units-of-measure",
+                  "customer-guide/products-and-services/barcode-scanning"
+                ]
+              },
+              {
+                "group": "Customers & Suppliers",
+                "pages": [
+                  "customer-guide/parties/adding-a-customer",
+                  "customer-guide/parties/credit-accounts",
+                  "customer-guide/parties/per-customer-tax"
+                ]
+              },
+              {
+                "group": "Purchases & Expenses",
+                "pages": [
+                  "customer-guide/purchases-and-expenses/recording-a-purchase",
+                  "customer-guide/purchases-and-expenses/tracking-expenses",
+                  "customer-guide/purchases-and-expenses/estimates-and-quotes"
+                ]
+              },
+              {
+                "group": "Employees",
+                "pages": [
+                  "customer-guide/employees/adding-an-employee",
+                  "customer-guide/employees/admin-pin-and-permissions",
+                  "customer-guide/employees/employee-linked-sales"
+                ]
+              },
+              {
+                "group": "Reports & Dashboard",
+                "pages": [
+                  "customer-guide/reports-and-dashboard/understanding-your-dashboard",
+                  "customer-guide/reports-and-dashboard/customizing-the-dashboard",
+                  "customer-guide/reports-and-dashboard/sales-and-inventory-reports"
+                ]
+              },
+              {
+                "group": "Backup, Data & Multi-Device",
+                "pages": [
+                  "customer-guide/data-and-backup/backing-up-your-data",
+                  "customer-guide/data-and-backup/restoring-from-backup",
+                  "customer-guide/data-and-backup/importing-existing-data",
+                  "customer-guide/data-and-backup/phone-and-desktop-together"
+                ]
+              },
+              {
+                "group": "Account & Licensing",
+                "pages": [
+                  "customer-guide/account-and-licensing/activating-your-license",
+                  "customer-guide/account-and-licensing/devices-and-login",
+                  "customer-guide/account-and-licensing/managing-your-store-profile"
+                ]
+              },
+              {
+                "group": "Troubleshooting & FAQ",
+                "pages": [
+                  "customer-guide/troubleshooting/common-issues",
+                  "customer-guide/troubleshooting/contacting-support",
+                  "customer-guide/troubleshooting/language-and-display-settings"
+                ]
+              }
             ]
           },
           {
-            "group": "Daily Billing",
-            "pages": [
-              "customer-guide/daily-billing/creating-an-invoice",
-              "customer-guide/daily-billing/adding-items-to-a-bill",
-              "customer-guide/daily-billing/discounts-and-tax",
-              "customer-guide/daily-billing/taking-payment",
-              "customer-guide/daily-billing/printing-and-sharing",
-              "customer-guide/daily-billing/returns-and-replacements"
+            "tab": "Partner Hub",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "partner-hub/introduction"
+                ]
+              }
             ]
           },
           {
-            "group": "Managing Products & Services",
-            "pages": [
-              "customer-guide/products-and-services/adding-a-product",
-              "customer-guide/products-and-services/adding-a-service",
-              "customer-guide/products-and-services/stock-and-inventory-basics",
-              "customer-guide/products-and-services/units-of-measure",
-              "customer-guide/products-and-services/barcode-scanning"
-            ]
-          },
-          {
-            "group": "Customers & Suppliers",
-            "pages": [
-              "customer-guide/parties/adding-a-customer",
-              "customer-guide/parties/credit-accounts",
-              "customer-guide/parties/per-customer-tax"
-            ]
-          },
-          {
-            "group": "Purchases & Expenses",
-            "pages": [
-              "customer-guide/purchases-and-expenses/recording-a-purchase",
-              "customer-guide/purchases-and-expenses/tracking-expenses",
-              "customer-guide/purchases-and-expenses/estimates-and-quotes"
-            ]
-          },
-          {
-            "group": "Employees",
-            "pages": [
-              "customer-guide/employees/adding-an-employee",
-              "customer-guide/employees/admin-pin-and-permissions",
-              "customer-guide/employees/employee-linked-sales"
-            ]
-          },
-          {
-            "group": "Reports & Dashboard",
-            "pages": [
-              "customer-guide/reports-and-dashboard/understanding-your-dashboard",
-              "customer-guide/reports-and-dashboard/customizing-the-dashboard",
-              "customer-guide/reports-and-dashboard/sales-and-inventory-reports"
-            ]
-          },
-          {
-            "group": "Backup, Data & Multi-Device",
-            "pages": [
-              "customer-guide/data-and-backup/backing-up-your-data",
-              "customer-guide/data-and-backup/restoring-from-backup",
-              "customer-guide/data-and-backup/importing-existing-data",
-              "customer-guide/data-and-backup/phone-and-desktop-together"
-            ]
-          },
-          {
-            "group": "Account & Licensing",
-            "pages": [
-              "customer-guide/account-and-licensing/activating-your-license",
-              "customer-guide/account-and-licensing/devices-and-login",
-              "customer-guide/account-and-licensing/managing-your-store-profile"
-            ]
-          },
-          {
-            "group": "Troubleshooting & FAQ",
-            "pages": [
-              "customer-guide/troubleshooting/common-issues",
-              "customer-guide/troubleshooting/contacting-support",
-              "customer-guide/troubleshooting/language-and-display-settings"
+            "tab": "Internal Ops",
+            "groups": [
+              {
+                "group": "Overview",
+                "pages": [
+                  "internal-ops/introduction"
+                ]
+              }
             ]
           }
         ]
       },
       {
-        "tab": "Partner Hub",
-        "groups": [
+        "language": "hi",
+        "tabs": [
           {
-            "group": "Overview",
-            "pages": [
-              "partner-hub/introduction"
+            "tab": "ग्राहक गाइड",
+            "groups": [
+              {
+                "group": "शुरुआत करें",
+                "pages": [
+                  "hi/customer-guide/introduction",
+                  "hi/customer-guide/getting-started/install-windows",
+                  "hi/customer-guide/getting-started/install-android",
+                  "hi/customer-guide/getting-started/first-time-setup",
+                  "hi/customer-guide/getting-started/offline-first"
+                ]
+              },
+              {
+                "group": "रोज़ का बिलिंग",
+                "pages": [
+                  "hi/customer-guide/daily-billing/creating-an-invoice",
+                  "hi/customer-guide/daily-billing/adding-items-to-a-bill",
+                  "hi/customer-guide/daily-billing/discounts-and-tax",
+                  "hi/customer-guide/daily-billing/taking-payment",
+                  "hi/customer-guide/daily-billing/printing-and-sharing",
+                  "hi/customer-guide/daily-billing/returns-and-replacements"
+                ]
+              },
+              {
+                "group": "उत्पाद और सेवाएँ प्रबंधित करना",
+                "pages": [
+                  "hi/customer-guide/products-and-services/adding-a-product",
+                  "hi/customer-guide/products-and-services/adding-a-service",
+                  "hi/customer-guide/products-and-services/stock-and-inventory-basics",
+                  "hi/customer-guide/products-and-services/units-of-measure",
+                  "hi/customer-guide/products-and-services/barcode-scanning"
+                ]
+              },
+              {
+                "group": "ग्राहक और सप्लायर",
+                "pages": [
+                  "hi/customer-guide/parties/adding-a-customer",
+                  "hi/customer-guide/parties/credit-accounts",
+                  "hi/customer-guide/parties/per-customer-tax"
+                ]
+              },
+              {
+                "group": "खरीद और खर्चे",
+                "pages": [
+                  "hi/customer-guide/purchases-and-expenses/recording-a-purchase",
+                  "hi/customer-guide/purchases-and-expenses/tracking-expenses",
+                  "hi/customer-guide/purchases-and-expenses/estimates-and-quotes"
+                ]
+              },
+              {
+                "group": "कर्मचारी",
+                "pages": [
+                  "hi/customer-guide/employees/adding-an-employee",
+                  "hi/customer-guide/employees/admin-pin-and-permissions",
+                  "hi/customer-guide/employees/employee-linked-sales"
+                ]
+              },
+              {
+                "group": "रिपोर्ट और डैशबोर्ड",
+                "pages": [
+                  "hi/customer-guide/reports-and-dashboard/understanding-your-dashboard",
+                  "hi/customer-guide/reports-and-dashboard/customizing-the-dashboard",
+                  "hi/customer-guide/reports-and-dashboard/sales-and-inventory-reports"
+                ]
+              },
+              {
+                "group": "बैकअप, डेटा और मल्टी-डिवाइस",
+                "pages": [
+                  "hi/customer-guide/data-and-backup/backing-up-your-data",
+                  "hi/customer-guide/data-and-backup/restoring-from-backup",
+                  "hi/customer-guide/data-and-backup/importing-existing-data",
+                  "hi/customer-guide/data-and-backup/phone-and-desktop-together"
+                ]
+              },
+              {
+                "group": "अकाउंट और लाइसेंसिंग",
+                "pages": [
+                  "hi/customer-guide/account-and-licensing/activating-your-license",
+                  "hi/customer-guide/account-and-licensing/devices-and-login",
+                  "hi/customer-guide/account-and-licensing/managing-your-store-profile"
+                ]
+              },
+              {
+                "group": "समस्या निवारण और FAQ",
+                "pages": [
+                  "hi/customer-guide/troubleshooting/common-issues",
+                  "hi/customer-guide/troubleshooting/contacting-support",
+                  "hi/customer-guide/troubleshooting/language-and-display-settings"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "Internal Ops",
-        "groups": [
+          },
           {
-            "group": "Overview",
-            "pages": [
-              "internal-ops/introduction"
+            "tab": "पार्टनर हब",
+            "groups": [
+              {
+                "group": "अवलोकन",
+                "pages": [
+                  "hi/partner-hub/introduction"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "आंतरिक संचालन",
+            "groups": [
+              {
+                "group": "अवलोकन",
+                "pages": [
+                  "hi/internal-ops/introduction"
+                ]
+              }
             ]
           }
         ]
