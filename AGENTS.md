@@ -40,6 +40,9 @@ new shops per page:
 - **Bali Electronics** (Vikram Bali, staff Deepak) — used specifically for
   serial-number-tracked stock (phones, TVs, appliances), since individually
   identifiable high-value units don't fit a kirana-store example.
+- **James Spa** (James Fernandes, staff Priya) — used specifically for
+  service-only businesses (no stock, billed by session/treatment), since a
+  service-only example doesn't fit naturally into a retail/grocery story.
 
 ## Style preferences
 
