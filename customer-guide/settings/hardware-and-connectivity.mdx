@@ -1,0 +1,82 @@
+---
+title: "Hardware & connectivity settings"
+description: "Connect Bluetooth label and receipt printers, set up USB printers on Windows, enable webcam scanning, and customize keyboard shortcuts."
+---
+
+**Settings → Printers & Labels** (and related hardware options) is where
+you connect the physical devices at your counter — printers, scanners, and
+on Windows, keyboard shortcuts for faster billing.
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+### Label/Receipt Printer Settings
+
+How you connect a printer depends on which device you're using:
+
+- **Phone**: BillBasket connects directly to a Bluetooth label or receipt
+  printer. Pair it from **Settings → Printers & Labels** — once paired,
+  BillBasket prints straight to it using the printer's own raw command
+  format (ESC-POS for receipt printers, TSPL for label printers), so there's
+  nothing else to configure.
+- **Windows PC**: printing goes through the normal Windows print dialog. A
+  USB label or receipt printer just needs to be installed as a regular
+  Windows printer first (using the driver that came with it), and then you
+  select it from the print dialog like you would any other printer.
+  BillBasket doesn't need its own special driver.
+
+Windows also has an experimental, opt-in **Camera** toggle at
+**Settings → Printers & Labels → Camera**. Turning it on lets you scan
+barcodes using your PC's webcam instead of a dedicated scanner. It's off by
+default because a webcam is less reliable at reading barcodes than a
+proper barcode scanner — only turn it on if you don't have a scanner handy.
+
+For barcode scanning devices (not printers): a USB or Bluetooth barcode
+scanner "gun" works out of the box on both Android and Windows, with no
+setup needed here. It behaves like a keyboard — when you scan a code, it
+simply types the number into whichever field is currently focused. See
+[Barcode scanning](/customer-guide/products-and-services/barcode-scanning)
+for the full walkthrough of scanning in BillBasket.
+
+### Keyboard Shortcuts
+
+Available on Windows/desktop only (not shown on Android). Customize what
+the F1–F10 keys do, so you can trigger the actions you use most — like
+opening a new bill or jumping to payment — without touching the mouse.
+
+## Try it: Sharma Kirana Store
+
+<Steps>
+  <Step title="Suresh pairs a Bluetooth receipt printer">
+    Suresh sets up a new Bluetooth receipt printer at the billing counter.
+    On the shop's phone, he opens **Settings → Printers & Labels** and pairs
+    it — BillBasket can now print receipts directly to it.
+  </Step>
+  <Step title="Rajesh sets up the Windows counter printer">
+    On the shop's Windows PC, Rajesh installs the same model's USB receipt
+    printer using its Windows driver, then picks it from the normal print
+    dialog when printing an invoice — no BillBasket-specific setup needed.
+  </Step>
+  <Step title="Rajesh sets a shortcut for new bills">
+    On the Windows PC, Rajesh opens **Settings → Keyboard Shortcuts** and
+    assigns F2 to "New bill" so Suresh can start billing faster during rush
+    hours.
+  </Step>
+</Steps>

@@ -49,6 +49,15 @@
                 ]
               },
               {
+                "group": "Warehouse",
+                "pages": [
+                  "customer-guide/warehouse/warehouses-and-stock-view",
+                  "customer-guide/warehouse/stock-transfers",
+                  "customer-guide/warehouse/reconciliation-and-expiry",
+                  "customer-guide/warehouse/dispatch-and-traceability"
+                ]
+              },
+              {
                 "group": "Customers & Suppliers",
                 "pages": [
                   "customer-guide/parties/adding-a-customer",
@@ -70,6 +79,14 @@
                   "customer-guide/employees/adding-an-employee",
                   "customer-guide/employees/admin-pin-and-permissions",
                   "customer-guide/employees/employee-linked-sales"
+                ]
+              },
+              {
+                "group": "Employee HR",
+                "pages": [
+                  "customer-guide/employee-hr/attendance-tracking",
+                  "customer-guide/employee-hr/holidays",
+                  "customer-guide/employee-hr/payroll-and-salary"
                 ]
               },
               {
@@ -95,6 +112,18 @@
                   "customer-guide/account-and-licensing/activating-your-license",
                   "customer-guide/account-and-licensing/devices-and-login",
                   "customer-guide/account-and-licensing/managing-your-store-profile"
+                ]
+              },
+              {
+                "group": "Settings",
+                "pages": [
+                  "customer-guide/settings/general-settings",
+                  "customer-guide/settings/catalog-settings",
+                  "customer-guide/settings/document-settings",
+                  "customer-guide/settings/hardware-and-connectivity",
+                  "customer-guide/settings/data-and-backup-settings",
+                  "customer-guide/settings/notifications",
+                  "customer-guide/settings/add-ons-and-system"
                 ]
               },
               {
