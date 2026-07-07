@@ -1,0 +1,49 @@
+---
+title: "Adding a customer or supplier"
+description: "Add customers and suppliers in BillBasket to bill against them, track a running ledger of dues and payments, and keep contact details handy."
+sidebarTitle: "What it is"
+---
+
+Add a customer or supplier from **Parties → New Party** with a name,
+phone number, and optional address and tax details. Once added, you can
+bill against them, track credit, and view their full transaction
+history.
+
+## Understanding the fields
+
+- **Name** — the only required field. Shows on bills and in the
+  Parties list.
+- **Phone** and **Email** — contact details, both optional.
+- **Address** — a general address. If you don't fill in the separate
+  billing/shipping addresses below, BillBasket falls back to this one
+  wherever an address is needed, so a simple contact with a single
+  address still works without extra typing.
+- **Billing address** and **Shipping address** — separate addresses for
+  invoicing versus delivery. A **"Use general for both"** button copies
+  the general address into both fields in one tap when they're the
+  same, so you don't have to retype it.
+- **Tax ID** — the customer or supplier's tax registration number
+  (e.g. GSTIN), used on invoices where applicable.
+- **Customer** and **Supplier** — two independent switches; turn on
+  either or both, since the same real-world contact can be both a
+  customer and a supplier (common with resellers or partner shops).
+  Turning a switch on reveals a settings section specific to that role:
+  - **When Customer is on:**
+    - **Credit limit** — the maximum outstanding balance you'll let this
+      customer carry before you'd stop extending further credit. See
+      [Credit accounts](/customer-guide/parties/credit-accounts/explainer) for how
+      this is used day to day.
+    - **Default invoice series** — the numbering series BillBasket
+      automatically applies whenever this customer is picked on a fresh
+      invoice. If the staff member billing also has their own default
+      series set differently, BillBasket prompts them to pick one rather
+      than silently choosing.
+  - **When Supplier is on:**
+    - **Bank name** and **Bank account** — payment details for this
+      supplier, useful when recording purchase payments.
+  - Turning a switch off hides its settings section, but at least one
+    of Customer or Supplier must stay on — a party can't be neither.
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/parties/adding-a-customer/how-do-we">
+  See the step-by-step walkthrough for adding a customer and billing them.
+</Card>

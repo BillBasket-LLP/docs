@@ -1,0 +1,41 @@
+---
+title: "Admin PIN & permissions"
+description: "Set a 6-digit BillBasket Admin PIN to protect Settings, Employees, product editing, and other sensitive actions from cashiers and other staff."
+sidebarTitle: "What it is"
+---
+
+The Admin PIN, set during first-time setup, gates sensitive screens so staff
+can bill customers freely without being able to change store settings, edit
+products, or manage employees. Enter it once per session to unlock these
+areas.
+
+## Understanding the fields
+
+- **Admin PIN (6 digits)** — a separate secret from the PIN or password you
+  use to sign in to BillBasket itself. It exists purely to gate a handful of
+  sensitive screens, not to log in.
+- **What it protects** — **Settings**, the **Employees** list, and the
+  product **add/edit/delete** menu. Everyday actions like billing, viewing
+  reports, and recording payments are never blocked by it.
+- **Enable/disable toggle** — the Admin PIN is optional. If you haven't set
+  one, those screens stay open to anyone using the device. Turning it on is
+  what activates the gate.
+- **Session unlock** — entering the PIN once unlocks the protected areas for
+  the rest of that session; you won't be asked again until the app restarts
+  or you use **Lock now** to re-lock it manually. This means if you hand the
+  device to a staff member right after unlocking it yourself, they'll have
+  access too — lock it again before doing so.
+- **Reset** — if you forget the PIN, it can only be reset through your
+  BillBasket account (not from the device itself), since the device only
+  stores a hashed version of it, not the PIN in plain text.
+
+<Note>
+  The Admin PIN is a single shared secret for the whole store, not a
+  per-employee permission system — anyone who knows it can unlock the
+  protected screens. It works alongside, not instead of, employee-linked
+  sales tracking.
+</Note>
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/employees/admin-pin-and-permissions/how-do-we">
+  See the step-by-step walkthrough for setting and using the Admin PIN.
+</Card>

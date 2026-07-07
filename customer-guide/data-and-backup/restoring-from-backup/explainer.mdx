@@ -1,0 +1,30 @@
+---
+title: "Restoring from backup"
+description: "Restore your BillBasket store from a previous backup — either the full database or individual tables like products, customers, or invoices."
+sidebarTitle: "What it is"
+---
+
+Restore from **Settings → Backup & Restore → Restore**. You can restore a
+full snapshot or pick specific tables/data to restore.
+
+## Understanding the fields
+
+- **Backup to restore** — picked from the list of previous encrypted
+  backups tied to your account and store; you can't restore a backup
+  belonging to a different store or account.
+- **Restore scope: full vs. per-table** — a full restore replaces
+  everything with that backup's snapshot. Picking specific tables instead
+  (for example, just Customers) only touches that data, leaving
+  everything else — like invoices created since the backup — untouched.
+  Use the narrower option when you're recovering from a mistake in one
+  area, not rolling the whole store back in time.
+
+<Note>
+  Restoring the full snapshot rolls back everything to that backup's
+  point in time — any sales or changes made after that backup was taken
+  are lost unless you restore just the specific table you need instead.
+</Note>
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/data-and-backup/restoring-from-backup/how-do-we">
+  See the step-by-step walkthrough for restoring from a backup.
+</Card>

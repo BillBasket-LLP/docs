@@ -1,0 +1,37 @@
+---
+title: "Returns & replacements"
+description: "Process a return or replacement against an existing BillBasket invoice, refund the customer, and automatically restock the returned items."
+sidebarTitle: "What it is"
+---
+
+A return or replacement always starts from the original invoice — you
+select which items are coming back, then choose what happens to the stock
+and the money.
+
+## Understanding the fields
+
+- **Return mode** — **Return** (customer keeps nothing, gets refunded or
+  credited) or **Replace** (item is exchanged for the same or a different
+  one). This choice changes which of the fields below apply.
+- **Refund method** — **Cash** (money back) or **Credit note** (a credit
+  the customer can use on a future purchase instead of cash back). Only
+  relevant for Return mode — a Replace doesn't need a refund method unless
+  there's a price difference to settle.
+- **Restock** — on by default, adds the returned item back to inventory.
+  Turn it off for a damaged/unsellable item.
+- **Damaged** — this isn't a separate switch; a return only counts as
+  "damaged" (written off rather than restocked) when you're in **Return**
+  mode *and* Restock is turned off. In Replace mode, this distinction
+  doesn't apply the same way, since the flow is built around exchanging
+  the item rather than writing it off.
+
+<Note>
+  Returns and replacements are tracked separately from new sales, so your
+  sales reports and dashboard reflect net figures accurately. See
+  [Understanding your
+  dashboard](/customer-guide/reports-and-dashboard/understanding-your-dashboard/explainer).
+</Note>
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/daily-billing/returns-and-replacements/how-do-we">
+  See the step-by-step walkthrough for processing a return or replacement.
+</Card>

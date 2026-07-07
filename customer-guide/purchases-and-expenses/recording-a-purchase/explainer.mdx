@@ -1,0 +1,46 @@
+---
+title: "Recording a purchase"
+description: "Record purchases from suppliers in BillBasket to update stock levels, track supplier dues, and account for landed cost against each product you sell."
+sidebarTitle: "What it is"
+---
+
+Record a purchase from **Purchases → New Purchase**, pick the supplier and
+items, and BillBasket adds the stock to your inventory and updates the
+supplier's account if bought on credit.
+
+## Understanding the fields
+
+- **Supplier** — the party you're buying from. BillBasket tracks a running
+  due balance per supplier, so picking the right one keeps that account
+  accurate.
+- **Vendor bill number** and **vendor bill date** — the supplier's own
+  invoice number and date, exactly as printed on their paperwork. These are
+  separate from BillBasket's own purchase number (below) — they exist so you
+  can match your BillBasket record back to the physical bill if a supplier
+  ever disputes a delivery.
+- **Purchase number** — BillBasket generates this automatically for every
+  purchase you record. It's your internal reference, not the vendor's bill
+  number.
+- **Purchase date** — defaults to today; change it if you're recording a
+  delivery after the fact.
+- **Stock-in location** — which location the stock is added to. This field
+  only appears if you've turned on the Warehouse add-on; otherwise every
+  purchase stocks into your default In-Store location automatically.
+- **Line items** — for each product, you enter the quantity received and the
+  unit cost you paid. Tax is calculated per line based on the product's tax
+  settings.
+- **Serial numbers** — if a product has **Track Serial Numbers** turned on,
+  BillBasket asks you to enter each unit's serial number as you receive it.
+  The purchase can't be saved as "received" until every serial for that line
+  is captured.
+- **Discount** and **shipping** — optional flat adjustments to the total,
+  for when a supplier gives a lump-sum discount or bills you separately for
+  delivery.
+- **Amount paid** — how much you paid at the time of the purchase. Whatever
+  is left over becomes the **amount due**, which is added to the supplier's
+  running balance so you can track and settle it later. Leaving this blank
+  (or zero) records the whole purchase as on-credit.
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/purchases-and-expenses/recording-a-purchase/how-do-we">
+  See the step-by-step walkthrough for recording a purchase.
+</Card>

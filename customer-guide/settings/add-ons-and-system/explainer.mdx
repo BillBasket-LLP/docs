@@ -1,0 +1,99 @@
+---
+title: "Add-ons & system settings"
+description: "Turn optional modules on or off, set your weekly off days, configure Windows startup behavior, set your Admin PIN, and enable the built-in AI assistant."
+sidebarTitle: "What it is"
+---
+
+**Settings → Add-ons** and the surrounding system options cover the
+optional modules included in your plan, your store's weekly schedule,
+Windows startup behavior, and account-level settings like your Admin PIN
+and license.
+
+<Frame>
+  <img src="/images/settings/settings-menu-addons-section-phone.png" alt="Settings menu showing the Add-ons section" />
+</Frame>
+
+## Understanding the fields
+
+### Add-ons
+
+- **Module switch** (one per module — e.g. Employee HR, Warehouse,
+  Appointments/Services) — turns a whole optional section of the app on or
+  off for your store. A module only shows a working switch if it's
+  **included in your plan**; otherwise it's shown unavailable. Since
+  turning a module on or off adds or removes whole sections of the app's
+  navigation, this action requires your **Admin PIN** if one is set. See
+  [Admin PIN and permissions](/customer-guide/employees/admin-pin-and-permissions/explainer).
+  Turning on **Employee HR** or **Warehouse** unlocks the corresponding
+  section of this guide.
+
+<Frame>
+  <img src="/images/settings/addons-warehouse-enabled-phone.png" alt="Warehouse add-on toggled on in Settings" />
+</Frame>
+
+### Non-working Days
+
+- **Weekly off-day chips (Mon–Sun)** — tap a day to mark it as a recurring
+  weekly closure (for example, every Sunday). This only sets your
+  **regular weekly** schedule. Specific one-off holidays (like a festival
+  closure on a particular date) are a separate system, managed on the
+  Employee HR module's Holidays page — see
+  [Holidays](/customer-guide/employee-hr/holidays/explainer). The two don't share data:
+  marking a weekly off-day here doesn't create a Holidays entry, and vice
+  versa.
+
+### Startup & Background
+
+Windows only — this section doesn't appear on Android.
+
+- **Run at login** — starts BillBasket automatically when the PC turns on.
+- **Minimize to tray** (on by default) — keeps BillBasket running quietly
+  in the background when you close the window, instead of fully exiting.
+  These two toggles are independent — you can turn on minimize-to-tray
+  without run-at-login (BillBasket just won't fully quit once you've
+  started it manually), though together they're what keeps BillBasket
+  ready at the counter without ever needing to be opened manually.
+
+### Admin PIN
+
+- **Enable Admin PIN** (toggle) — turning this on prompts you to set a
+  6-digit PIN that then protects sensitive actions like Settings,
+  Employees, and product edits. Turning it off requires confirming the
+  current PIN first.
+- **Change PIN** (only shown once enabled) — set a new 6-digit PIN,
+  replacing the old one.
+- **Lock now** — immediately re-locks the admin-protected areas without
+  waiting for the app to lock itself, useful right before you hand the
+  counter to staff.
+- **Forgot PIN?** — a reset path tied to your BillBasket account, for when
+  the PIN is lost.
+
+See [Admin PIN and permissions](/customer-guide/employees/admin-pin-and-permissions/explainer)
+for the full guide to what the PIN protects.
+
+### License & Account
+
+Manage your BillBasket license and see this device's status. See
+[Activating your license](/customer-guide/account-and-licensing/activating-your-license/explainer)
+and [Devices and login](/customer-guide/account-and-licensing/devices-and-login/explainer)
+for details.
+
+### AI Assistant
+
+- **Master switch** — turns BillBasket's built-in AI assistant on or off.
+  Everything else below only appears once this is on.
+- **Where should AI run? (On this device / Cloud / Automatic)** — On
+  Windows, "on this device" runs locally via Ollama; on Android it depends
+  on whether the phone can run it (checked automatically) — a phone that
+  can't run AI locally falls back to Cloud. Choosing Automatic lets
+  BillBasket pick the best option for the device it's running on, rather
+  than you having to know which to choose. The engine status chip at the
+  top of the screen shows whether it's currently set up and ready, or
+  needs setup.
+- **Advanced (Windows only, collapsed by default)** — technical detail like
+  the Ollama connection address and model name; most shop owners never
+  need to open this.
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/settings/add-ons-and-system/how-do-we">
+  See the step-by-step walkthrough for turning on an add-on and setting your weekly off day.
+</Card>

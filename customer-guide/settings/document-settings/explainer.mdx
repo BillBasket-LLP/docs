@@ -1,0 +1,70 @@
+---
+title: "Document settings"
+description: "Customize your BillBasket invoice PDF layout, bank details and signature, numbering series, and tax configuration for printed invoices and estimates."
+sidebarTitle: "What it is"
+---
+
+**Settings → Documents** controls how your printed invoices and estimates
+look and how they're numbered — the layout template, your signature and
+bank details, the numbering series, and tax setup.
+
+## Understanding the fields
+
+### Invoice Template & Branding
+
+- **Invoice template / Estimate template** — separate dropdowns picking the
+  PDF layout used for invoices and for estimates respectively, so you can
+  run a different look for each document type.
+- **Bank name / Account number / IFSC / routing / Account holder name** —
+  shown on the invoice's bottom strip for customers paying by transfer.
+  These are the same bank details set in your
+  [Business Profile](/customer-guide/account-and-licensing/managing-your-store-profile/explainer)
+  — editing them here updates the same record.
+- **Signature** — an image (JPG/PNG, up to 2 MB) uploaded to print at the
+  bottom of invoices, standing in for a physical signature.
+- **Show batch number / Show serial number / Show expiry / Show tax codes**
+  — toggles controlling extra detail rows on the printed bill. **Show batch
+  number** only prints anything for products that actually carry a
+  batch/lot number — for a product with no batch tracking, turning this on
+  has no visible effect. Similarly, **Show serial number** only matters for
+  serial-tracked products.
+
+### Invoice Numbering
+
+- **Series name** — an internal label to tell series apart (e.g. "Main
+  counter," "Estimates").
+- **Prefix** — the text before the number on a document (like `INV-` or
+  `EST-`).
+- **Next number** — the counter that increments each time a new document
+  uses this series. You can edit this manually (for example, to match a
+  paper book you're switching from), but doing so can create duplicate or
+  skipped numbers if set carelessly.
+- **Number padding** — how many digits the number is padded to (e.g.
+  padding 6 turns `7` into `000007`).
+- **Make this the default series** — when checked, new documents of that
+  type (invoice, estimate, or return) use this series automatically. Only
+  one series per document type can be default at a time; picking a new
+  default series switches off the previous one. You aren't limited to a
+  single series — set up multiple parallel series (each with its own prefix
+  and starting number) for different counters or branches, and switch
+  which is default, or pick a non-default one manually per document.
+- **Archive / Reactivate** — retires a series without deleting its history;
+  an archived series can't be picked as default or used for new documents
+  until reactivated.
+
+### Tax Configuration
+
+- **Tax system** (read-only) — the tax framework your country uses (for
+  example GST), set from your business's country and not editable here.
+- **Tax ID label** (read-only) — the locally correct term for your tax ID
+  (e.g. "GSTIN"), matching the field on your Business Profile.
+- **Tax rates (slabs)** — your country's seeded tax rates, shown read-only
+  with their component breakdown (e.g. "CGST 9% + SGST 9%").
+- **Category default tax rate** — for each product category, you can pick
+  which tax slab applies by default. When you add a new product under that
+  category, its tax rate auto-fills from this setting — you can still
+  override the rate on an individual product afterward.
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/settings/document-settings/how-do-we">
+  See the step-by-step walkthrough for branding invoices and setting up a numbering series.
+</Card>

@@ -1,0 +1,60 @@
+---
+title: "Applying discounts & tax"
+description: "Apply line-item and bill-level discounts, choose a flat amount or percentage, and understand how BillBasket calculates the final invoice total."
+sidebarTitle: "What it is"
+---
+
+You can apply a discount at two levels on the same invoice — per line item
+and on the whole bill — and BillBasket calculates tax automatically based
+on each product's own tax rate.
+
+## Discounts
+
+- **Per line item** — a flat amount off a single product/service line.
+- **Bill-level** — a flat amount *or* a percentage off the whole invoice
+  total, whichever you choose.
+
+Both can be used on the same invoice. Line discounts are baked into each
+line's total first; the bill-level discount is then applied on top of the
+sum of all lines.
+
+## Tax
+
+Tax is calculated automatically based on the tax rate set on each product
+or service — there's no separate customer-level tax override that changes
+the rate (a customer's saved tax branch only affects which tax number
+prints on the invoice, not the rate — see [Per-customer tax
+branches](/customer-guide/parties/per-customer-tax/explainer)). You can still
+change the tax slab applied to a specific invoice line for a one-off
+exception.
+
+## Understanding the fields
+
+- **Line discount** — a flat rupee amount taken off one line. The billing
+  screen also offers a percent-based entry as a convenience, but it's
+  converted to a flat amount before being saved — so a line discount is
+  always a fixed amount once you move to the next line, not a live
+  percentage that changes if you edit the price afterward.
+- **Bill discount amount** and **Bill discount type** (flat or
+  percentage) — unlike the line discount, the bill-level discount keeps
+  both the percent and the flat-amount view live and in sync with each
+  other while you're editing it, so you can switch between typing a
+  percent or a rupee amount and see the other update automatically.
+- **Calculation order** — line discounts reduce each line's total first,
+  which is what "subtotal" is based on. Tax is calculated per line and
+  added on top of that subtotal. The bill-level discount is then
+  subtracted last — and importantly, a percentage bill discount is
+  calculated against the pre-tax subtotal, not against the tax-inclusive
+  total, and it does not reduce the tax amount itself.
+- **Tax classification code (HSN/SAC)** — only shown for stores in
+  countries where it's required (for example, India); it doesn't appear
+  at all for stores in regions where it isn't a tax requirement.
+
+<Note>
+  Tax field names and requirements (like HSN/SAC) follow the tax rules for
+  your country/region and only appear where relevant.
+</Note>
+
+<Card title="How to do it" icon="arrow-right" href="/customer-guide/daily-billing/discounts-and-tax/how-do-we">
+  See the step-by-step walkthrough for applying discounts and tax on a bill.
+</Card>
