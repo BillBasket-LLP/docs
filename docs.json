@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "BillBasket Docs",
+  "name": "BillBasket App (Documentation)",
   "colors": {
     "primary": "#004AAD",
     "light": "#4FA8FF",
