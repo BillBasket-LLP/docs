@@ -42,7 +42,13 @@
                 "pages": [
                   "customer-guide/products-and-services/adding-a-product",
                   "customer-guide/products-and-services/adding-a-service",
-                  "customer-guide/products-and-services/serial-number-tracking",
+                  {
+                    "group": "Tracking serial numbers",
+                    "pages": [
+                      "customer-guide/products-and-services/serial-number-tracking/explainer",
+                      "customer-guide/products-and-services/serial-number-tracking/how-do-we"
+                    ]
+                  },
                   "customer-guide/products-and-services/stock-and-inventory-basics",
                   "customer-guide/products-and-services/units-of-measure",
                   "customer-guide/products-and-services/barcode-scanning"
@@ -51,10 +57,34 @@
               {
                 "group": "Warehouse",
                 "pages": [
-                  "customer-guide/warehouse/warehouses-and-stock-view",
-                  "customer-guide/warehouse/stock-transfers",
-                  "customer-guide/warehouse/reconciliation-and-expiry",
-                  "customer-guide/warehouse/dispatch-and-traceability"
+                  {
+                    "group": "Warehouses & stock view",
+                    "pages": [
+                      "customer-guide/warehouse/warehouses-and-stock-view/explainer",
+                      "customer-guide/warehouse/warehouses-and-stock-view/how-do-we"
+                    ]
+                  },
+                  {
+                    "group": "Stock transfers between locations",
+                    "pages": [
+                      "customer-guide/warehouse/stock-transfers/explainer",
+                      "customer-guide/warehouse/stock-transfers/how-do-we"
+                    ]
+                  },
+                  {
+                    "group": "Reconciliation & expiry write-offs",
+                    "pages": [
+                      "customer-guide/warehouse/reconciliation-and-expiry/explainer",
+                      "customer-guide/warehouse/reconciliation-and-expiry/how-do-we"
+                    ]
+                  },
+                  {
+                    "group": "Delivery dispatch & serial/HUN traceability",
+                    "pages": [
+                      "customer-guide/warehouse/dispatch-and-traceability/explainer",
+                      "customer-guide/warehouse/dispatch-and-traceability/how-do-we"
+                    ]
+                  }
                 ]
               },
               {
