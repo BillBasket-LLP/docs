@@ -20,10 +20,26 @@
   (that's internal Firestore/code terminology only).
 - Use "Employee", not "Salesman" (renamed in-app; code/DB still say salesman).
 - Use "Party" only when writing for engineers; customer-facing docs should
-  say "customer" or "supplier" instead.
-- Three audiences, one tab each: **Customer Guide** (end shop owners/staff),
-  **Partner Hub** (training material for partners), **Internal Ops**
-  (Sales & Support runbooks).
+  say "customer" or "supplier" instead — but that always means *the shop's*
+  customer (the person being billed), never the reader of the docs.
+- Docs audience for the Customer Guide tab is the **Shop/Business Owner**
+  (and their staff) — the person running the POS. Never call the reader
+  "customer"; address them as "you" or "shop owner" to avoid colliding with
+  the Party/customer concept above.
+- Three audiences, one tab each: **Customer Guide** (Shop/Business Owner —
+  reader of the POS), **Partner Hub** (training material for partners),
+  **Internal Ops** (Sales & Support runbooks).
+
+## Sample personas (worked examples)
+
+Reuse these consistently across "Try it" walkthroughs instead of inventing
+new shops per page:
+
+- **Sharma Kirana Store** (Rajesh Sharma, staff Suresh) — default persona
+  for general retail/grocery: everyday products, credit accounts, purchases.
+- **Bali Electronics** (Vikram Bali, staff Deepak) — used specifically for
+  serial-number-tracked stock (phones, TVs, appliances), since individually
+  identifiable high-value units don't fit a kirana-store example.
 
 ## Style preferences
 
