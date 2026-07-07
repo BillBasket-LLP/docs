@@ -1,13 +1,9 @@
-# Mintlify Starter Kit
+# BillBasket Docs
 
-Use the starter kit to get your docs deployed and ready to customize.
-
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
-
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
+Documentation site for BillBasket, built on [Mintlify](https://mintlify.com).
+Organized into three audience tabs: **Customer Guide** (end shop
+owners/staff), **Partner Hub** (partner training materials), and **Internal
+Ops** (Sales & Support runbooks).
 - Use of popular components
 
 **[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**

@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "BillBasket Docs",
   "colors": {
-    "primary": "#1E88E5",
-    "light": "#42A5F5",
-    "dark": "#0D47A1"
+    "primary": "#004AAD",
+    "light": "#4FA8FF",
+    "dark": "#00337A"
   },
   "favicon": "/favicon.svg",
   "navigation": {
