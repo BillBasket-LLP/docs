@@ -146,17 +146,6 @@
                 ]
               }
             ]
-          },
-          {
-            "tab": "Internal Ops",
-            "groups": [
-              {
-                "group": "Overview",
-                "pages": [
-                  "internal-ops/introduction"
-                ]
-              }
-            ]
           }
         ]
       },
@@ -266,30 +255,10 @@
                 ]
               }
             ]
-          },
-          {
-            "tab": "आंतरिक संचालन",
-            "groups": [
-              {
-                "group": "अवलोकन",
-                "pages": [
-                  "hi/internal-ops/introduction"
-                ]
-              }
-            ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
