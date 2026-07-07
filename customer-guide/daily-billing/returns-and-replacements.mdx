@@ -1,0 +1,75 @@
+---
+title: "Returns & replacements"
+description: "Process a return or replacement against an existing BillBasket invoice, refund the customer, and automatically restock the returned items."
+---
+
+A return or replacement always starts from the original invoice — you
+select which items are coming back, then choose what happens to the stock
+and the money.
+
+## Understanding the fields
+
+- **Return mode** — **Return** (customer keeps nothing, gets refunded or
+  credited) or **Replace** (item is exchanged for the same or a different
+  one). This choice changes which of the fields below apply.
+- **Refund method** — **Cash** (money back) or **Credit note** (a credit
+  the customer can use on a future purchase instead of cash back). Only
+  relevant for Return mode — a Replace doesn't need a refund method unless
+  there's a price difference to settle.
+- **Restock** — on by default, adds the returned item back to inventory.
+  Turn it off for a damaged/unsellable item.
+- **Damaged** — this isn't a separate switch; a return only counts as
+  "damaged" (written off rather than restocked) when you're in **Return**
+  mode *and* Restock is turned off. In Replace mode, this distinction
+  doesn't apply the same way, since the flow is built around exchanging
+  the item rather than writing it off.
+
+<Note>
+  Returns and replacements are tracked separately from new sales, so your
+  sales reports and dashboard reflect net figures accurately. See
+  [Understanding your
+  dashboard](/customer-guide/reports-and-dashboard/understanding-your-dashboard).
+</Note>
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+<Steps>
+  <Step title="Find the original invoice">
+    Open the invoice the return or replacement relates to from your
+    invoice list or the customer's history.
+  </Step>
+  <Step title="Choose Return or Replace">
+    Select the item(s) being returned. Choose **Return** to refund or
+    credit the customer, or **Replace** to exchange for the same or a
+    different item.
+  </Step>
+  <Step title="Choose whether to restock the item">
+    Leave Restock on for a resellable item, or turn it off if it's
+    damaged — turning it off while in Return mode writes the item off
+    instead of adding it back to inventory.
+  </Step>
+  <Step title="Confirm the payment adjustment">
+    For a Return, pick Cash or Credit note as the refund method. Returned
+    stock (if restocked) is added back to inventory automatically, and
+    the refund/credit or price difference is recorded against the
+    customer.
+  </Step>
+</Steps>

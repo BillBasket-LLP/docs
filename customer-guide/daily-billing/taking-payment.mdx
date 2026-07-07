@@ -1,0 +1,82 @@
+---
+title: "Taking payment (cash/credit/split payment)"
+description: "Collect invoice payment in cash, card, UPI, bank transfer, or credit, split a bill across multiple methods, and record partial payments against the customer ledger."
+---
+
+At checkout, choose how the customer is paying. BillBasket supports
+several payment methods on the same invoice, and always shows what's still
+outstanding.
+
+## Understanding the fields
+
+- **Payment method** — one of **Cash**, **Card**, **UPI**, **Bank
+  transfer**, **Cheque**, **Credit note**, or **Credit**. Each row of
+  payment on an invoice picks its own method, so a single bill can be
+  split across more than one.
+- **Credit** — records the sale against the customer's account instead of
+  collecting money now. This method only appears as an option when a
+  customer is linked to the invoice and their credit is enabled — see
+  [Credit accounts](/customer-guide/parties/credit-accounts). A
+  walk-in sale with no customer can't use Credit.
+- **Credit note** — pays (fully or partly) using a credit note already
+  issued to that customer, instead of new money changing hands.
+- **Amount** — how much of the invoice total this particular row covers.
+  The remaining, unpaid balance automatically defaults to **Credit** if a
+  customer is linked, or stays as an outstanding cash amount if not.
+- **Reference number** — for non-cash methods (card, UPI, bank transfer,
+  cheque), a place to note the transaction/cheque reference for your own
+  records; this field is hidden for Cash and Credit since there's nothing
+  to reference.
+
+## Invoice payment status
+
+Every invoice is either fully paid or **partial** — BillBasket doesn't
+store a separate "unpaid"/"overdue" status, but reminder messages
+calculate days-overdue from the invoice date so you know how long a
+partial balance has been outstanding.
+
+<Tip>
+  You can collect a pending payment on an existing invoice at any time
+  from the invoice list, without creating a new bill.
+</Tip>
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+<Steps>
+  <Step title="Choose the payment method">
+    At checkout, pick Cash, Card, UPI, Bank transfer, Cheque, Credit note,
+    or Credit for this payment.
+  </Step>
+  <Step title="Split the bill across more than one method">
+    Add a second payment row for the remaining amount and pick a
+    different method — for example, part cash and part credit for a
+    regular customer.
+  </Step>
+  <Step title="Record a partial payment">
+    Enter less than the full amount and finish the sale — the invoice is
+    saved with a partial status and the remaining balance recorded
+    against the customer, if one is linked.
+  </Step>
+  <Step title="Collect the rest later">
+    Reopen that invoice from the invoice list whenever the customer pays
+    the remainder, without creating a new bill.
+  </Step>
+</Steps>

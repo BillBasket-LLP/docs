@@ -1,0 +1,68 @@
+---
+title: "Restoring from backup"
+description: "Restore your BillBasket store from a previous backup — either the full database or individual tables like products, customers, or invoices."
+---
+
+Restore from **Settings → Backup & Restore → Restore**. You can restore a
+full snapshot or pick specific tables/data to restore.
+
+## Understanding the fields
+
+- **Backup to restore** — picked from the list of previous encrypted
+  backups tied to your account and store; you can't restore a backup
+  belonging to a different store or account.
+- **Restore scope: full vs. per-table** — a full restore replaces
+  everything with that backup's snapshot. Picking specific tables instead
+  (for example, just Customers) only touches that data, leaving
+  everything else — like invoices created since the backup — untouched.
+  Use the narrower option when you're recovering from a mistake in one
+  area, not rolling the whole store back in time.
+
+<Note>
+  Restoring the full snapshot rolls back everything to that backup's
+  point in time — any sales or changes made after that backup was taken
+  are lost unless you restore just the specific table you need instead.
+</Note>
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+## Try it: Sharma Kirana Store
+
+<Steps>
+  <Step title="Reinstall and sign back in">
+    After his Windows PC is reset for a repair, Rajesh Sharma reinstalls
+    BillBasket and signs back in to Sharma Kirana Store's account.
+  </Step>
+  <Step title="Open Restore and pick a backup">
+    He goes to **Settings → Backup & Restore → Restore** and sees the
+    list of previous encrypted backups tied to his store.
+  </Step>
+  <Step title="Restore the full snapshot">
+    Rajesh picks last night's backup and chooses to restore the full
+    snapshot, bringing back all products, parties like Meena Devi, and
+    invoice history.
+  </Step>
+  <Step title="Restore just one table if needed">
+    Another time, Rajesh only needs to recover the Customers table after
+    an accidental bulk edit — he selects just that table from the same
+    backup instead of restoring everything.
+  </Step>
+</Steps>

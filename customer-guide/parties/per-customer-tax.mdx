@@ -1,0 +1,92 @@
+---
+title: "Per-customer tax branches"
+description: "Save multiple tax numbers (GSTINs) for one customer as branches, and pick the right one at invoice time instead of retyping it or editing the customer's profile every time."
+---
+
+Some customers buy from you under more than one registered tax number — for
+example, a chain business with separate GST registrations for different
+branches or locations. Instead of editing that customer's profile every time
+you bill a different branch, BillBasket lets you save each tax number as a
+named **branch** on the customer, then pick the right one while billing.
+
+<Note>
+  This is different from a product or category's tax rate — branches don't
+  change how much tax is charged, only which tax number and billing address
+  print on the invoice for that customer.
+</Note>
+
+## Understanding the fields
+
+Each saved branch on a customer has:
+
+- **Label** — a name you choose to tell branches apart, like "Sales A" or
+  "Main Branch." This is what you'll see and pick from at billing time, so
+  make it something you'll recognize later.
+- **Tax number** — the GSTIN (or equivalent) for that branch. This is what
+  gets printed on the invoice and saved permanently against that specific
+  bill, so changing or deleting the branch later doesn't alter past
+  invoices.
+- **Address** — the billing address that goes with that branch's tax
+  number, since a different registration usually means a different
+  registered address.
+- **Place of supply** — which state/region the sale is treated as being
+  made to, for your own tax records.
+- **Default branch** — a customer can have only one branch marked default
+  at a time. The default is what's pre-selected when you pick that customer
+  on a new invoice, so the common case needs no extra taps — you only need
+  to switch branches for the exception.
+- **Active** — an inactive branch stops showing up as an option at billing
+  time without deleting its history from past invoices.
+
+## Why this matters
+
+Because the tax number is snapshotted onto the invoice at the moment you
+bill it (not looked up live from the customer each time), an old invoice
+keeps showing the branch that was actually used — even if you later change
+that customer's default branch or edit a branch's details.
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+## Try it: Sharma Kirana Store
+
+<Steps>
+  <Step title="Pick the customer on a new invoice">
+    Rajesh Sharma starts a new bill for a regular wholesale customer that
+    operates two registered branches, and picks that customer as usual.
+  </Step>
+  <Step title="Add a tax branch instead of retyping the tax number">
+    Since this is the customer's first bill in BillBasket, Rajesh adds a
+    branch with a label ("Main Branch"), that branch's tax number, and its
+    billing address — and marks it as the default.
+  </Step>
+  <Step title="Switch branches when billing a different location">
+    The next month, the same customer orders for their second branch.
+    Rajesh adds a second branch ("Warehouse Branch") with its own tax
+    number and address, and picks it instead of the default for this
+    invoice only.
+  </Step>
+  <Step title="Past invoices keep the branch that was actually used">
+    Later, Rajesh reprints last month's invoice — it still shows "Main
+    Branch" and its tax number, even though the customer's default has
+    since changed, because the invoice saved a snapshot of what was picked
+    at the time.
+  </Step>
+</Steps>

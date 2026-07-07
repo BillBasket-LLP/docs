@@ -20,348 +20,100 @@
                 "group": "Getting Started",
                 "pages": [
                   "customer-guide/introduction",
-                  {
-                    "group": "Install on Windows",
-                    "pages": [
-                      "customer-guide/getting-started/install-windows/explainer",
-                      "customer-guide/getting-started/install-windows/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Install on Android",
-                    "pages": [
-                      "customer-guide/getting-started/install-android/explainer",
-                      "customer-guide/getting-started/install-android/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "First-time setup",
-                    "pages": [
-                      "customer-guide/getting-started/first-time-setup/explainer",
-                      "customer-guide/getting-started/first-time-setup/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Understanding offline-first",
-                    "pages": [
-                      "customer-guide/getting-started/offline-first/explainer",
-                      "customer-guide/getting-started/offline-first/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Daily Billing",
-                "pages": [
-                  {
-                    "group": "Creating an invoice",
-                    "pages": [
-                      "customer-guide/daily-billing/creating-an-invoice/explainer",
-                      "customer-guide/daily-billing/creating-an-invoice/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Adding products/services to a bill",
-                    "pages": [
-                      "customer-guide/daily-billing/adding-items-to-a-bill/explainer",
-                      "customer-guide/daily-billing/adding-items-to-a-bill/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Applying discounts & tax",
-                    "pages": [
-                      "customer-guide/daily-billing/discounts-and-tax/explainer",
-                      "customer-guide/daily-billing/discounts-and-tax/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Taking payment (cash/credit/split payment)",
-                    "pages": [
-                      "customer-guide/daily-billing/taking-payment/explainer",
-                      "customer-guide/daily-billing/taking-payment/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Printing & sharing bills (PDF, label printing)",
-                    "pages": [
-                      "customer-guide/daily-billing/printing-and-sharing/explainer",
-                      "customer-guide/daily-billing/printing-and-sharing/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Returns & replacements",
-                    "pages": [
-                      "customer-guide/daily-billing/returns-and-replacements/explainer",
-                      "customer-guide/daily-billing/returns-and-replacements/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Managing Products & Services",
-                "pages": [
-                  {
-                    "group": "Adding a product",
-                    "pages": [
-                      "customer-guide/products-and-services/adding-a-product/explainer",
-                      "customer-guide/products-and-services/adding-a-product/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Adding a service",
-                    "pages": [
-                      "customer-guide/products-and-services/adding-a-service/explainer",
-                      "customer-guide/products-and-services/adding-a-service/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Tracking serial numbers",
-                    "pages": [
-                      "customer-guide/products-and-services/serial-number-tracking/explainer",
-                      "customer-guide/products-and-services/serial-number-tracking/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Stock & inventory basics",
-                    "pages": [
-                      "customer-guide/products-and-services/stock-and-inventory-basics/explainer",
-                      "customer-guide/products-and-services/stock-and-inventory-basics/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Units of measure (UOM)",
-                    "pages": [
-                      "customer-guide/products-and-services/units-of-measure/explainer",
-                      "customer-guide/products-and-services/units-of-measure/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Barcode scanning (camera + hardware scanner)",
-                    "pages": [
-                      "customer-guide/products-and-services/barcode-scanning/explainer",
-                      "customer-guide/products-and-services/barcode-scanning/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Warehouse",
-                "pages": [
-                  {
-                    "group": "Warehouses & stock view",
-                    "pages": [
-                      "customer-guide/warehouse/warehouses-and-stock-view/explainer",
-                      "customer-guide/warehouse/warehouses-and-stock-view/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Stock transfers between locations",
-                    "pages": [
-                      "customer-guide/warehouse/stock-transfers/explainer",
-                      "customer-guide/warehouse/stock-transfers/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Reconciliation & expiry write-offs",
-                    "pages": [
-                      "customer-guide/warehouse/reconciliation-and-expiry/explainer",
-                      "customer-guide/warehouse/reconciliation-and-expiry/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Delivery dispatch & serial/HUN traceability",
-                    "pages": [
-                      "customer-guide/warehouse/dispatch-and-traceability/explainer",
-                      "customer-guide/warehouse/dispatch-and-traceability/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Customers & Suppliers",
-                "pages": [
-                  {
-                    "group": "Adding a customer or supplier",
-                    "pages": [
-                      "customer-guide/parties/adding-a-customer/explainer",
-                      "customer-guide/parties/adding-a-customer/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Credit accounts & payment tracking",
-                    "pages": [
-                      "customer-guide/parties/credit-accounts/explainer",
-                      "customer-guide/parties/credit-accounts/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Per-customer tax branches",
-                    "pages": [
-                      "customer-guide/parties/per-customer-tax/explainer",
-                      "customer-guide/parties/per-customer-tax/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Purchases & Expenses",
-                "pages": [
-                  {
-                    "group": "Recording a purchase",
-                    "pages": [
-                      "customer-guide/purchases-and-expenses/recording-a-purchase/explainer",
-                      "customer-guide/purchases-and-expenses/recording-a-purchase/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Tracking business expenses",
-                    "pages": [
-                      "customer-guide/purchases-and-expenses/tracking-expenses/explainer",
-                      "customer-guide/purchases-and-expenses/tracking-expenses/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Estimates/quotes → converting to invoice",
-                    "pages": [
-                      "customer-guide/purchases-and-expenses/estimates-and-quotes/explainer",
-                      "customer-guide/purchases-and-expenses/estimates-and-quotes/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Employees",
-                "pages": [
-                  {
-                    "group": "Adding an employee",
-                    "pages": [
-                      "customer-guide/employees/adding-an-employee/explainer",
-                      "customer-guide/employees/adding-an-employee/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Admin PIN & permissions",
-                    "pages": [
-                      "customer-guide/employees/admin-pin-and-permissions/explainer",
-                      "customer-guide/employees/admin-pin-and-permissions/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Employee-linked sales",
-                    "pages": [
-                      "customer-guide/employees/employee-linked-sales/explainer",
-                      "customer-guide/employees/employee-linked-sales/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Employee HR",
-                "pages": [
-                  {
-                    "group": "Tracking employee attendance",
-                    "pages": [
-                      "customer-guide/employee-hr/attendance-tracking/explainer",
-                      "customer-guide/employee-hr/attendance-tracking/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Managing holidays",
-                    "pages": [
-                      "customer-guide/employee-hr/holidays/explainer",
-                      "customer-guide/employee-hr/holidays/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Payroll & salary",
-                    "pages": [
-                      "customer-guide/employee-hr/payroll-and-salary/explainer",
-                      "customer-guide/employee-hr/payroll-and-salary/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Reports & Dashboard",
-                "pages": [
-                  {
-                    "group": "Understanding your dashboard",
-                    "pages": [
-                      "customer-guide/reports-and-dashboard/understanding-your-dashboard/explainer",
-                      "customer-guide/reports-and-dashboard/understanding-your-dashboard/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Customizing the dashboard",
-                    "pages": [
-                      "customer-guide/reports-and-dashboard/customizing-the-dashboard/explainer",
-                      "customer-guide/reports-and-dashboard/customizing-the-dashboard/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Sales/inventory reports",
-                    "pages": [
-                      "customer-guide/reports-and-dashboard/sales-and-inventory-reports/explainer",
-                      "customer-guide/reports-and-dashboard/sales-and-inventory-reports/how-do-we"
-                    ]
-                  }
-                ]
-              },
-              {
-                "group": "Backup, Data & Multi-Device",
-                "pages": [
-                  {
-                    "group": "Backing up your data",
-                    "pages": [
-                      "customer-guide/data-and-backup/backing-up-your-data/explainer",
-                      "customer-guide/data-and-backup/backing-up-your-data/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Restoring from backup",
-                    "pages": [
-                      "customer-guide/data-and-backup/restoring-from-backup/explainer",
-                      "customer-guide/data-and-backup/restoring-from-backup/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Importing existing data",
-                    "pages": [
-                      "customer-guide/data-and-backup/importing-existing-data/explainer",
-                      "customer-guide/data-and-backup/importing-existing-data/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Using BillBasket on phone + desktop together",
-                    "pages": [
-                      "customer-guide/data-and-backup/phone-and-desktop-together/explainer",
-                      "customer-guide/data-and-backup/phone-and-desktop-together/how-do-we"
-                    ]
-                  }
+                  "customer-guide/getting-started/install-windows",
+                  "customer-guide/getting-started/install-android",
+                  "customer-guide/getting-started/first-time-setup",
+                  "customer-guide/getting-started/offline-first"
                 ]
               },
               {
                 "group": "Account & Licensing",
                 "pages": [
+                  "customer-guide/account-and-licensing/activating-your-license",
+                  "customer-guide/account-and-licensing/devices-and-login",
+                  "customer-guide/account-and-licensing/managing-your-store-profile"
+                ]
+              },
+              {
+                "group": "Billing & Sales",
+                "pages": [
+                  "customer-guide/daily-billing/creating-an-invoice",
+                  "customer-guide/daily-billing/adding-items-to-a-bill",
+                  "customer-guide/daily-billing/discounts-and-tax",
+                  "customer-guide/daily-billing/taking-payment",
+                  "customer-guide/daily-billing/printing-and-sharing",
+                  "customer-guide/purchases-and-expenses/estimates-and-quotes",
+                  "customer-guide/daily-billing/returns-and-replacements",
+                  "customer-guide/daily-billing/credit-notes",
+                  "customer-guide/daily-billing/pos-quick-sale"
+                ]
+              },
+              {
+                "group": "Products & Inventory",
+                "pages": [
+                  "customer-guide/products-and-services/adding-a-product",
+                  "customer-guide/products-and-services/serial-number-tracking",
+                  "customer-guide/products-and-services/units-of-measure",
+                  "customer-guide/products-and-services/barcode-scanning",
+                  "customer-guide/products-and-services/stock-and-inventory-basics",
+                  "customer-guide/purchases-and-expenses/recording-a-purchase"
+                ]
+              },
+              {
+                "group": "Customers & Suppliers",
+                "pages": [
+                  "customer-guide/parties/adding-a-customer",
+                  "customer-guide/parties/credit-accounts",
+                  "customer-guide/parties/per-customer-tax"
+                ]
+              },
+              {
+                "group": "Employees",
+                "pages": [
+                  "customer-guide/employees/adding-an-employee",
+                  "customer-guide/employees/admin-pin-and-permissions",
+                  "customer-guide/employees/employee-linked-sales"
+                ]
+              },
+              {
+                "group": "Money & Reports",
+                "pages": [
+                  "customer-guide/purchases-and-expenses/tracking-expenses",
+                  "customer-guide/reports-and-dashboard/day-book",
+                  "customer-guide/reports-and-dashboard/sales-and-inventory-reports",
+                  "customer-guide/reports-and-dashboard/understanding-your-dashboard",
+                  "customer-guide/reports-and-dashboard/customizing-the-dashboard"
+                ]
+              },
+              {
+                "group": "Add-on Modules",
+                "pages": [
+                  "customer-guide/products-and-services/adding-a-service",
                   {
-                    "group": "Activating your license",
+                    "group": "Employee HR",
                     "pages": [
-                      "customer-guide/account-and-licensing/activating-your-license/explainer",
-                      "customer-guide/account-and-licensing/activating-your-license/how-do-we"
+                      "customer-guide/employee-hr/attendance-tracking",
+                      "customer-guide/employee-hr/holidays",
+                      "customer-guide/employee-hr/payroll-and-salary"
                     ]
                   },
                   {
-                    "group": "Devices & login",
+                    "group": "Warehouse",
                     "pages": [
-                      "customer-guide/account-and-licensing/devices-and-login/explainer",
-                      "customer-guide/account-and-licensing/devices-and-login/how-do-we"
+                      "customer-guide/warehouse/warehouses-and-stock-view",
+                      "customer-guide/warehouse/stock-transfers",
+                      "customer-guide/warehouse/reconciliation-and-expiry",
+                      "customer-guide/warehouse/dispatch-and-traceability"
                     ]
                   },
                   {
-                    "group": "Managing your store/business profile",
+                    "group": "Appointments",
                     "pages": [
-                      "customer-guide/account-and-licensing/managing-your-store-profile/explainer",
-                      "customer-guide/account-and-licensing/managing-your-store-profile/how-do-we"
+                      "customer-guide/appointments/booking-basics",
+                      "customer-guide/appointments/bookable-services",
+                      "customer-guide/appointments/packages",
+                      "customer-guide/appointments/waitlist-and-cancellations",
+                      "customer-guide/appointments/reminders-and-confirmations"
                     ]
                   }
                 ]
@@ -369,69 +121,31 @@
               {
                 "group": "Settings",
                 "pages": [
-                  {
-                    "group": "General settings",
-                    "pages": [
-                      "customer-guide/settings/general-settings/explainer",
-                      "customer-guide/settings/general-settings/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Catalog settings",
-                    "pages": [
-                      "customer-guide/settings/catalog-settings/explainer",
-                      "customer-guide/settings/catalog-settings/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Document settings",
-                    "pages": [
-                      "customer-guide/settings/document-settings/explainer",
-                      "customer-guide/settings/document-settings/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Hardware & connectivity settings",
-                    "pages": [
-                      "customer-guide/settings/hardware-and-connectivity/explainer",
-                      "customer-guide/settings/hardware-and-connectivity/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Data & backup settings",
-                    "pages": [
-                      "customer-guide/settings/data-and-backup-settings/explainer",
-                      "customer-guide/settings/data-and-backup-settings/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Notifications",
-                    "pages": [
-                      "customer-guide/settings/notifications/explainer",
-                      "customer-guide/settings/notifications/how-do-we"
-                    ]
-                  },
-                  {
-                    "group": "Add-ons & system settings",
-                    "pages": [
-                      "customer-guide/settings/add-ons-and-system/explainer",
-                      "customer-guide/settings/add-ons-and-system/how-do-we"
-                    ]
-                  }
+                  "customer-guide/settings/general-settings",
+                  "customer-guide/settings/catalog-settings",
+                  "customer-guide/settings/document-settings",
+                  "customer-guide/settings/hardware-and-connectivity",
+                  "customer-guide/settings/notifications",
+                  "customer-guide/settings/companion-and-web-access",
+                  "customer-guide/settings/add-ons-and-system"
                 ]
               },
               {
-                "group": "Troubleshooting & FAQ",
+                "group": "Data & Backup",
+                "pages": [
+                  "customer-guide/data-and-backup/backing-up-your-data",
+                  "customer-guide/data-and-backup/restoring-from-backup",
+                  "customer-guide/data-and-backup/importing-existing-data",
+                  "customer-guide/settings/data-and-backup-settings",
+                  "customer-guide/data-and-backup/external-database"
+                ]
+              },
+              {
+                "group": "Help & Troubleshooting",
                 "pages": [
                   "customer-guide/troubleshooting/common-issues",
                   "customer-guide/troubleshooting/contacting-support",
-                  {
-                    "group": "Language & display settings",
-                    "pages": [
-                      "customer-guide/troubleshooting/language-and-display-settings/explainer",
-                      "customer-guide/troubleshooting/language-and-display-settings/how-do-we"
-                    ]
-                  }
+                  "customer-guide/troubleshooting/language-and-display-settings"
                 ]
               }
             ]

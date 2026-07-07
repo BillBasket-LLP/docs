@@ -44,6 +44,31 @@ new shops per page:
   service-only businesses (no stock, billed by session/treatment), since a
   service-only example doesn't fit naturally into a retail/grocery story.
 
+## Page & sidebar structure (IMPORTANT)
+
+- **One page per topic.** Each Customer Guide topic is a single flat
+  `<section>/<topic>.mdx` file. Do **not** split a topic into
+  `explainer.mdx` + `how-do-we.mdx` — that pattern was removed because it
+  duplicated sidebar labels. A topic page flows: concept intro →
+  `## Understanding the fields` (list each field and how fields relate) →
+  `## See it on your device` (`<Tabs>` device block) → `## Try it: <Persona>`
+  (`<Steps>` walkthrough).
+- **Complex add-on modules are a group of distinctly-named single pages.**
+  Only genuinely multi-screen modules (Warehouse, Employee HR, Appointments)
+  get a nested `docs.json` group; each child is one task page with its own
+  clear title (e.g. "Stock transfers", not "How to do it").
+- **Sidebar sections mirror the app menu** (`billing_shell.dart` +
+  `module_registry.dart`): Getting Started · Account & Licensing · Billing &
+  Sales · Products & Inventory · Customers & Suppliers · Employees · Money &
+  Reports · Add-on Modules · Settings · Data & Backup · Help.
+- `docs.json` **group labels are display-only** — the sidebar label for a
+  flat page is its frontmatter `title`. Regroup by editing `docs.json`; a page
+  need not move folders to appear under a new section.
+- Cross-link to *other* topics with the flat path (`/customer-guide/<section>/<topic>`).
+  Never link to a `/explainer` or `/how-do-we` suffix — those don't exist.
+- Only reference a screenshot `<img src>` if the file actually exists under
+  `images/`; otherwise keep the `_Screenshot coming soon — …_` placeholder.
+
 ## Style preferences
 
 {/* Add any project-specific style rules below */}

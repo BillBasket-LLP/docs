@@ -1,0 +1,77 @@
+---
+title: "Adding a service"
+description: "Add a billable service like labor, repair, or installation to BillBasket alongside your products, with its own price, tax rate, and unit of measure — no stock tracking involved."
+---
+
+Services work like products for billing purposes but skip stock
+tracking entirely — there's nothing to count or run low on. Add one from
+**Products → New Service** and it appears in its own Services list, ready
+to bill by the session, hour, or job.
+
+## Understanding the fields
+
+The service form is a trimmed-down version of the product form — it
+drops everything related to physical stock and adds nothing sold by
+weight or count:
+
+- **Name** — what shows on the bill, same as a product.
+- **SKU** — your own code for the service. Leave it blank and BillBasket
+  auto-generates one when you save, just like on the product form.
+  Services skip the Manufacturer and barcode/UPC fields entirely, since a
+  service isn't manufactured or scanned.
+- **Category** — groups services for reporting, same purpose as on
+  products.
+- **Unit of measure (UOM)** — how the service is billed: "session,"
+  "hour," "job," and so on. The dropdown only offers units scoped to
+  services (or to both product and service) — units created for
+  product-only use (like "kg" or "liter") won't clutter this list. See
+  [Units of measure](/customer-guide/products-and-services/units-of-measure).
+- **Selling price and tax rate** — set the same way as on a product; you
+  can also mark the price tax-inclusive.
+- **No stock, no tracking toggles, no supplier fields** — the service
+  form has no opening-stock field, no low-stock alert, no Track Serial
+  Numbers or Track batches toggle, and no supplier section, because none
+  of those apply to something that isn't held in stock.
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+## Try it: James Spa
+
+<Steps>
+  <Step title="Open New Service">
+    James Fernandes runs **James Spa**, a pure service business — no
+    products to stock, just treatments to bill. He opens **Products → New
+    Service** to add "Swedish Massage."
+  </Step>
+  <Step title="Enter name, price, and tax rate">
+    He names it "Swedish Massage," sets the price to ₹1,200, and picks the
+    applicable tax rate. He repeats this for "Facial Treatment" at ₹800.
+  </Step>
+  <Step title="Set the unit of measure">
+    Since a treatment is charged per session rather than by weight or
+    count, he sets the unit of measure to "session."
+  </Step>
+  <Step title="Bill a client">
+    When his therapist Priya finishes a Swedish Massage for a walk-in
+    client, James bills it directly from the service list — no stock is
+    deducted, since it's a service line.
+  </Step>
+</Steps>

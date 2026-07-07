@@ -1,0 +1,84 @@
+---
+title: "Reconciliation & expiry write-offs"
+description: "Reconcile a physical BillBasket stock count against system totals, and write off expired, damaged, or lost batches at each warehouse or store location."
+---
+
+Stock on paper and stock on your shelf can drift apart over time — through
+damage, miscounts, or forgotten write-offs. BillBasket's reconciliation
+tools let you fix that gap with a physical count, and separately handle
+batches that have expired or been lost.
+
+<Note>
+  Warehouse is an optional add-on module — turn it on from Settings →
+  Add-ons (Admin PIN required) if you don't see it in your menu.
+</Note>
+
+<Frame>
+  <img src="/images/warehouse/reconcile-draft-count-phone.png" alt="Draft count screen showing system quantity for a product" />
+</Frame>
+
+## Reconciling a physical stock count
+
+Start a draft count for a location — In-Store or any warehouse — and
+manually enter the quantity you counted for each product. BillBasket shows
+you the variance against what the system expects. When the count is right,
+posting the draft finalizes it and adjusts your system inventory to match
+what's actually on the shelf.
+
+## Writing off expired or lost stock
+
+For batch/lot-tracked products, the Expiry view shows near-expiry and
+after-expiry batches per location — batch number, expiry date, and
+quantity. If a lot has gone bad or gone missing, mark it **Expired** or
+**Lost** to write it off. This zeroes its quantity and records the loss, so
+your stock totals stay accurate.
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      <img src="/images/warehouse/reconcile-draft-count-phone.png" alt="Draft count screen showing system quantity for a product" />
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+## Try it: Bali Electronics
+
+<Steps>
+  <Step title="Start a draft count and enter what you actually counted">
+    Vikram Bali runs a physical stock count at his Service Center
+    Warehouse, starting a draft reconciliation and entering the quantity he
+    counted for a phone model — the system expects 1, and he counts 1 on
+    the shelf.
+
+    <Frame>
+      <img src="/images/warehouse/reconcile-count-entered-phone.png" alt="Draft count with the counted quantity entered, matching the system total" />
+    </Frame>
+  </Step>
+  <Step title="Post the count to finalize it">
+    With no variance found this time, Vikram posts the count. BillBasket
+    confirms the reconciliation is posted and the system total stays in
+    sync with the shelf.
+
+    <Frame>
+      <img src="/images/warehouse/reconcile-posted-phone.png" alt="Reconciliation posted confirmation" />
+    </Frame>
+  </Step>
+  <Step title="Switch to the Expiry view to write off a bad batch">
+    While counting, Vikram also notices a batch of screen protectors that
+    expired last month. He switches to the Expiry view, finds that batch,
+    and marks it **Expired** to write it off separately from the
+    reconciliation.
+  </Step>
+</Steps>

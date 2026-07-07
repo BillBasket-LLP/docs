@@ -1,0 +1,108 @@
+---
+title: "Printers & hardware"
+description: "Connect Bluetooth label printers or a Windows OS printer, choose a label design, enable webcam scanning, and customize keyboard shortcuts."
+---
+
+**Settings → Printers & Labels** (and related hardware options) is where
+you connect the physical devices at your counter — printers, scanners, and
+on Windows, keyboard shortcuts for faster billing.
+
+## Understanding the fields
+
+### Label/Receipt Printer Settings
+
+- **Choose printer (Bluetooth)** — Phone only. Pick from your paired
+  Bluetooth printers. You must pair the printer in your phone's Android
+  Bluetooth settings first; BillBasket only lists devices already paired at
+  the OS level.
+- **Printer language (TSPL / ESC-POS)** — Phone only. Sets which raw
+  command format BillBasket sends. Most dedicated label printers use TSPL;
+  simple receipt-style printers use ESC-POS. If a test print looks garbled,
+  switching this setting and retrying usually fixes it.
+- **Choose default printer** — Windows PC only. Picks which installed
+  Windows printer BillBasket sends labels to; if left unset, printing opens
+  the normal Windows print dialog to choose each time. A USB label or
+  receipt printer needs to be installed as a regular Windows printer
+  (its own driver) before it shows up here.
+- **Test print** — sends a sample label to confirm the printer/format
+  combination actually works, before you rely on it for real labels.
+- **Template** — the label content layout (e.g. "Name + SKU + price +
+  barcode," "Compact," "Barcode only," "Name + SKU + batch + vendor code").
+  Pick "…batch…" only if the products you print labels for actually carry
+  batch numbers, since an empty batch field just leaves blank space.
+- **Label size** — the physical roll size your label stock matches; picking
+  the wrong size prints text off the edge of the label.
+- **Padding H / Padding V** — inner margin as a percentage of the label's
+  width/height; increase these if content is printing too close to the
+  label's edge.
+- **Copies per item** — how many labels print per item by default.
+- **Show price / Show batch number / Show store name** — toggles for what
+  appears on the label. **Show batch number** only prints anything for
+  products that have a batch/lot number recorded.
+- **Store code / Next number / Number padding** (SKU/barcode series) —
+  controls the auto-generated SKU format (`STORE-CATEGORY-NUMBER`), similar
+  in spirit to invoice numbering series. **Generate missing SKUs** backfills
+  a SKU for any product that doesn't have one yet, using this series.
+- **Camera (barcode scanning)** toggle — Windows PC only, off by default.
+  Turning it on lets you scan barcodes with your PC's webcam instead of a
+  dedicated scanner; a **Choose camera** picker only appears once this
+  toggle is on, letting you pick a specific camera if the PC has more than
+  one. A webcam is less reliable at reading barcodes than a proper scanner,
+  so this is meant as a fallback when you don't have one handy — it doesn't
+  affect a USB/Bluetooth barcode scanner "gun," which works independently
+  and needs no setup here.
+
+<Note>
+  On a phone paired to a Windows host (client mode), printer settings are
+  saved on that phone only — it always prints to its own Bluetooth printer,
+  independent of whatever printer the host desktop uses.
+</Note>
+
+### Keyboard Shortcuts
+
+Windows/desktop only. Each shortcut binds a key (grouped by category, e.g.
+Billing) to an action like "New bill" or "Go to payment." Tap **Change**
+next to any shortcut to rebind it to a different key, or **Reset to
+defaults** to undo all your custom bindings at once.
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+## Try it: Sharma Kirana Store
+
+<Steps>
+  <Step title="Pair a Bluetooth receipt printer on the phone">
+    Suresh sets up a new Bluetooth receipt printer at the billing counter.
+    On the shop's phone, he opens **Settings → Printers & Labels**, pairs
+    the printer in Android Bluetooth settings first, then chooses it in
+    BillBasket and runs a test print.
+  </Step>
+  <Step title="Set up the Windows counter printer">
+    On the shop's Windows PC, Rajesh installs the same model's USB receipt
+    printer using its Windows driver, then picks it as the default printer
+    in **Settings → Printers & Labels** — no BillBasket-specific setup
+    needed beyond that.
+  </Step>
+  <Step title="Assign a shortcut for new bills">
+    On the Windows PC, Rajesh opens **Settings → Keyboard Shortcuts** and
+    changes the "New bill" action's key to F2, so Suresh can start billing
+    faster during rush hours.
+  </Step>
+</Steps>

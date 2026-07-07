@@ -1,0 +1,86 @@
+---
+title: "Notifications"
+description: "Pick the WhatsApp, SMS, and email channels BillBasket uses to send invoices, receipts, and payment reminders, and edit the wording of each customer message."
+---
+
+**Settings → Notifications** controls how BillBasket sends invoices,
+receipts, and reminders to your customers, and lets you customize exactly
+what those messages say.
+
+## Understanding the fields
+
+### Notification Channels
+
+- **WhatsApp / SMS / Email** — toggles turning each channel on or off for
+  sending customer messages.
+- **Copy to clipboard** — always on and can't be turned off; it's the
+  fallback that lets you paste a message into whichever app you prefer
+  manually, even if you don't use any of the other channels.
+- **Set as default** — appears only next to a channel that's already turned
+  on and isn't already the default. Picking a default means BillBasket uses
+  that channel automatically when sending, without asking you to choose
+  each time. Only one channel can be default; setting a new one replaces
+  the old default.
+
+### Message Templates
+
+One editable template per business moment — invoice reminder, payment
+receipt, refund sent, credit note, and (if the Appointments/Services add-on
+is on) appointment confirmation and appointment reminder.
+
+- **Name** — an internal label for the template, not shown to customers.
+- **Subject** — used for channels that show a subject line (like email);
+  ignored by channels that don't (like WhatsApp).
+- **Body** — the actual message text sent to the customer.
+- **Active** — turns that specific template off without affecting the
+  channels themselves; an inactive template is skipped when its triggering
+  event happens.
+- **Tag tokens** (e.g. `{customer_name}`, `{amount}`, `{date}`) — placeholder
+  tags you insert into Subject or Body; BillBasket fills in the real value
+  automatically when the message is sent. Tags insert wherever your cursor
+  last was — in the Subject field or the Body field — so click into the
+  field you want the tag added to before tapping a tag.
+- **Restore default** — resets that one template's wording back to
+  BillBasket's built-in version, without touching your other templates.
+
+<Note>
+  Appointment confirmation and appointment reminder templates only appear
+  once the Appointments/Services add-on is turned on — see
+  [Add-ons & system settings](/customer-guide/settings/add-ons-and-system).
+</Note>
+
+## See it on your device
+
+<Tabs>
+  <Tab title="Phone">
+    <Frame>
+      _Screenshot coming soon — Android phone view._
+    </Frame>
+  </Tab>
+  <Tab title="Tablet">
+    <Frame>
+      _Screenshot coming soon — Android tablet view._
+    </Frame>
+  </Tab>
+  <Tab title="Windows PC">
+    <Frame>
+      _Screenshot coming soon — Windows desktop view._
+    </Frame>
+  </Tab>
+</Tabs>
+
+## Try it: Sharma Kirana Store
+
+<Steps>
+  <Step title="Turn on WhatsApp and set it as default">
+    Rajesh Sharma opens **Settings → Notifications → Notification
+    Channels** and turns on WhatsApp, setting it as the default channel
+    since most of his customers use it.
+  </Step>
+  <Step title="Customize the reminder message">
+    He then opens **Message Templates**, taps the payment reminder
+    template, and adds a friendly line — keeping the `{customer_name}` and
+    `{amount}` tags in place so each customer's reminder is still
+    personalized automatically.
+  </Step>
+</Steps>
